@@ -15,6 +15,8 @@
 		BA855A88268AB9D100605BC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA855A87268AB9D100605BC3 /* Assets.xcassets */; };
 		BA855A8B268AB9D100605BC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA855A89268AB9D100605BC3 /* LaunchScreen.storyboard */; };
 		BA855A98268ABF7200605BC3 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA855A97268ABF7200605BC3 /* Memo.swift */; };
+		BA855A9A268AC04000605BC3 /* MemoStorageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA855A99268AC04000605BC3 /* MemoStorageType.swift */; };
+		BA855A9E268AC15900605BC3 /* MemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA855A9D268AC15900605BC3 /* MemoryStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		BA855A8A268AB9D100605BC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA855A8C268AB9D100605BC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA855A97268ABF7200605BC3 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+		BA855A99268AC04000605BC3 /* MemoStorageType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStorageType.swift; sourceTree = "<group>"; };
+		BA855A9D268AC15900605BC3 /* MemoryStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryStorage.swift; sourceTree = "<group>"; };
 		BE08F419F1639A4479AB2E8F /* Pods-RxMemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMemo.debug.xcconfig"; path = "Target Support Files/Pods-RxMemo/Pods-RxMemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,7 +95,6 @@
 				BA855A7D268AB9CE00605BC3 /* SceneDelegate.swift */,
 				BA855A87268AB9D100605BC3 /* Assets.xcassets */,
 				BA855A8C268AB9D100605BC3 /* Info.plist */,
-				BA855A84268AB9CE00605BC3 /* RxMemo.xcdatamodeld */,
 			);
 			path = RxMemo;
 			sourceTree = "<group>";
@@ -123,6 +126,9 @@
 		BA855A95268ABE4C00605BC3 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				BA855A9C268AC12F00605BC3 /* CoreDataStorage */,
+				BA855A9B268AC10D00605BC3 /* MemoryStorage */,
+				BA855A99268AC04000605BC3 /* MemoStorageType.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -132,6 +138,22 @@
 			children = (
 			);
 			path = Scene;
+			sourceTree = "<group>";
+		};
+		BA855A9B268AC10D00605BC3 /* MemoryStorage */ = {
+			isa = PBXGroup;
+			children = (
+				BA855A9D268AC15900605BC3 /* MemoryStorage.swift */,
+			);
+			path = MemoryStorage;
+			sourceTree = "<group>";
+		};
+		BA855A9C268AC12F00605BC3 /* CoreDataStorage */ = {
+			isa = PBXGroup;
+			children = (
+				BA855A84268AB9CE00605BC3 /* RxMemo.xcdatamodeld */,
+			);
+			path = CoreDataStorage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,7 +270,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA855A9E268AC15900605BC3 /* MemoryStorage.swift in Sources */,
 				BA855A7C268AB9CE00605BC3 /* AppDelegate.swift in Sources */,
+				BA855A9A268AC04000605BC3 /* MemoStorageType.swift in Sources */,
 				BA855A7E268AB9CE00605BC3 /* SceneDelegate.swift in Sources */,
 				BA855A86268AB9CE00605BC3 /* RxMemo.xcdatamodeld in Sources */,
 				BA855A98268ABF7200605BC3 /* Memo.swift in Sources */,
