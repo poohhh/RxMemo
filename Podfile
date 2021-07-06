@@ -9,8 +9,8 @@ target 'RxMemo' do
   pod 'RxSwift'
   pod 'RxCocoa'
   pod 'Action'
-  pod 'NSObject+Rx'
   pod 'RxDataSources'
   pod 'RxCoreData'
+  pod 'NSObject+Rx'
 
 end
