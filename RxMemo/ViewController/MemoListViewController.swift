@@ -22,7 +22,7 @@ class MemoListViewController: UIViewController, ViewModelBindableType {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        
     }
     
     func bindViewModel() {
@@ -35,6 +35,8 @@ class MemoListViewController: UIViewController, ViewModelBindableType {
                 cell.textLabel?.text = memo.content
             }
             .disposed(by: rx.disposeBag)
+        
+        addButton.rx.action = viewModel.makeCreateAction()
     }
 
 }
