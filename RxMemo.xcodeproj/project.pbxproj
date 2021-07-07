@@ -29,6 +29,7 @@
 		BA855AA8268AC6D300605BC3 /* MemoDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA855AA7268AC6D300605BC3 /* MemoDetailViewModel.swift */; };
 		BA855AAA268AC6F800605BC3 /* MemoComposeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA855AA9268AC6F800605BC3 /* MemoComposeViewModel.swift */; };
 		BA855AAC268AC73700605BC3 /* ViewModelBindableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA855AAB268AC73700605BC3 /* ViewModelBindableType.swift */; };
+		BACEE9E32695653100DA2309 /* CoreDataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACEE9E22695653100DA2309 /* CoreDataStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		BA855AA7268AC6D300605BC3 /* MemoDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoDetailViewModel.swift; sourceTree = "<group>"; };
 		BA855AA9268AC6F800605BC3 /* MemoComposeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoComposeViewModel.swift; sourceTree = "<group>"; };
 		BA855AAB268AC73700605BC3 /* ViewModelBindableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBindableType.swift; sourceTree = "<group>"; };
+		BACEE9E22695653100DA2309 /* CoreDataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStorage.swift; sourceTree = "<group>"; };
 		BE08F419F1639A4479AB2E8F /* Pods-RxMemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMemo.debug.xcconfig"; path = "Target Support Files/Pods-RxMemo/Pods-RxMemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -188,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				BA855A84268AB9CE00605BC3 /* RxMemo.xcdatamodeld */,
+				BACEE9E22695653100DA2309 /* CoreDataStorage.swift */,
 			);
 			path = CoreDataStorage;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA855A9E268AC15900605BC3 /* MemoryStorage.swift in Sources */,
+				BACEE9E32695653100DA2309 /* CoreDataStorage.swift in Sources */,
 				BA855AAA268AC6F800605BC3 /* MemoComposeViewModel.swift in Sources */,
 				BA5B325826944F3B00B2C735 /* SceneCoordinator.swift in Sources */,
 				BA5B325426944CE100B2C735 /* Scene.swift in Sources */,
